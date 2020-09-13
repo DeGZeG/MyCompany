@@ -1,0 +1,416 @@
+@import "fonts.css";
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Общие классы */
+
+.title-with-line {
+    margin-top: 100px;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title-line {
+    width: 100px;
+    height: 4px;
+    background-color: #fcac45;
+    margin-top: 10px;
+}
+
+.col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* header */
+
+.navbar {
+    background-color: #111111;
+    padding: 30px 0;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 24px;
+    padding-left: 130px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    margin-right: 30px;
+}
+
+.navbar-nav {
+    background-color: #111111;
+    padding-right: 130px;
+}
+
+.nav-item {
+    margin: 10px 0 0 37px;
+}
+
+.nav-link{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0;
+}
+
+.nav-link:hover .link-span {
+    border-bottom: 3px solid #fcac45;
+}
+
+/* welcome section */
+
+.welcome {
+    min-height: 659px;
+    background-color: #111111;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.welcome .col {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome__title {
+    font-size: 44px;
+    font-weight: lighter;
+    text-align: center;
+    color: #999999;
+}
+
+.welcome__company {
+    font-weight: bold;
+    color: #fcac45;
+}
+
+.welcome__text {
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+.welcome__text span {
+    font-weight: bold;
+}
+
+/* about section */
+
+.about {
+    min-height: 612px;
+}
+
+.about__image-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.about__text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 120px 0 80px 0;
+}
+
+.about__list {
+    padding-left: 20px;
+}
+
+.about__title {
+    font-size: 34px;
+    border-bottom: 4px solid #fcac45;
+    text-align: center;
+}
+
+.about__title span {
+    font-weight: bold;
+}
+
+.about__text {
+    font-size: 18px;
+    color: #6c6c6c;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.list__title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6c6c6c;
+}
+
+.list__text {
+    color: #6c6c6c;
+}
+
+/* team section */
+
+.team {
+    min-height: 730px;
+    background-color: #111111;
+}
+
+.team span {
+    text-align: center;
+    color: white;
+}
+
+.team .title-line {
+    margin-bottom: 100px;
+}
+
+.team__title {
+    color: white;
+}
+
+.team__name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.team__profession {
+    font-size: 16px;
+}
+
+.team__about {
+    font-size: 14px;
+    margin: 35px 0;
+}
+
+/* services section */
+
+.services {
+    min-height: 730px;
+}
+
+.services span {
+    text-align: center;
+}
+
+.service__title {
+    color: #222222;
+}
+
+.service__text {
+    color: #6c6c6c;
+    text-align: center;
+    margin: 55px 0 80px 0;
+    font-style: italic;
+}
+
+.service__image {
+    width: 128px;
+    height: 128px;
+    border: 6px solid #fcac45;
+    border-radius: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service__name {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0 15px 0;
+}
+
+.service__about {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/* clients section */
+
+.clients {
+    min-height: 517px;
+    background-color: #111111;
+}
+
+.clients__title {
+    font-weight: normal;
+    color: white;
+}
+
+.clients__title span {
+    font-weight: bold;
+}
+
+.clients .title-line {
+    margin-bottom: 130px;
+}
+
+.clients__client {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px 40px 20px;
+}
+
+/* work section */
+
+.work {
+    min-height: 1330px;
+}
+
+.work__title {
+    color: #222222;
+    font-weight: normal;
+}
+
+.work__title span {
+    font-weight: bold;
+}
+
+.work__text {
+    color: #6c6c6c;
+    text-align: center;
+    margin: 55px 0 100px 0;
+    font-style: italic;
+}
+
+/* testimonials section */
+
+.testimonials {
+    min-height: 562px;
+    background-color: #111111;
+}
+
+.testimonials__title {
+    color: white;
+}
+
+.testimonials__title span {
+    font-weight: normal;
+}
+
+.testimonials__text {
+    color: #e7e7e7;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 115px 0 50px 0;
+}
+
+.testimonials__name {
+    color: #b2b2b2;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.testimonials__name span {
+    font-weight: normal;
+}
+
+/* contact section */
+
+.contact {
+    min-height: 835px;
+}
+
+.contact__title {
+    margin-top: 100px;
+}
+
+.contact__text {
+    color: #6c6c6c;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    margin: 50px 0 50px 0;
+}
+
+.contact__form {
+    width: 100%;
+}
+
+.form__input-title {
+    font-size: 14px;
+    color: #636363;
+}
+
+.form__input-title span {
+    color: red;
+}
+
+.form__input {
+    width: 100%;
+    height: 40px;
+    margin: 5px 0 30px 0;
+}
+
+.form__textarea {
+    width: 100%;
+    height: 165px;
+    margin: 5px 0 30px 0;
+    resize: none;
+}
+
+.form__button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #fcac45;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+/* footer */
+
+.footer {
+    min-height: 90px;
+    background-color: #222222;
+}
+
+.footer ul {
+    padding: 28px 0;
+}
+
+.footer .nav-item {
+    margin: 0 20px;
+}
+
+@media (max-width: 1176px) {
+    .navbar-brand {
+        padding-left: 30px;
+    }
+
+    .navbar-nav {
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 474px) {
+    .title-with-line {
+        font-size: 30px;
+    }
+
+    .welcome__title {
+        font-size: 40px;
+    }
+
+    .welcome__text {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .about__title {
+        font-size: 30px;
+    }
+
+    .clients__client {
+        margin: 0 0 40px 0;
+    }
+}
